@@ -15,6 +15,7 @@ public class Goal : MonoBehaviour {
             c.a = 1;
             mat.color = c;
         }
+        
     }
 
 
