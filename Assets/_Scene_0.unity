@@ -226,7 +226,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 4385d9681942b474b90130183be48536, type: 2}
+  - {fileID: 2100000, guid: fee0b2fab2d65fe42898047fed263ec6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -552,7 +552,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9858491, g: 1, b: 0.989935, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -571,12 +571,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1379229823}
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1379229826}
+        m_MethodName: SwitchView
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -766,6 +766,7 @@ MonoBehaviour:
   - {fileID: 1583452410271130, guid: 860d7cca300647e458e66fb637ba3a78, type: 2}
   - {fileID: 1474835761604542, guid: 0c21f9c7e9d47b94b8f43384bd6c935c, type: 2}
   - {fileID: 1230051159850084, guid: 846c53bee8958b14a8069ea62d62b54c, type: 2}
+  - {fileID: 1131623643553924, guid: ec338196e6537324e80d5ea28e24c633, type: 2}
   level: 0
   levelMax: 0
   shotsTaken: 0
@@ -978,7 +979,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 4385d9681942b474b90130183be48536, type: 2}
+  - {fileID: 2100000, guid: fee0b2fab2d65fe42898047fed263ec6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1365,7 +1366,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 4385d9681942b474b90130183be48536, type: 2}
+  - {fileID: 2100000, guid: fee0b2fab2d65fe42898047fed263ec6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

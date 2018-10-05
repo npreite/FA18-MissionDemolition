@@ -77,7 +77,7 @@ public class MissionDemolition : MonoBehaviour {
         {
             mode = GameMode.levelEnd;
             SwitchView("Show Both");
-            Invoke("Next Level", 2f);
+            NextLevel();
         }
         
     }
@@ -93,6 +93,7 @@ public class MissionDemolition : MonoBehaviour {
     public void SwitchView(string eView = "")
     {
         if (eView == "")
+
         {
             eView = uitButton.text;
         }
